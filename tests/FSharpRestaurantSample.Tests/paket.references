@@ -1,0 +1,6 @@
+FsUnit
+FsCheck
+FSharpx.Collections
+FSharpx.Core
+Newtonsoft.Json
+EventStore.Client

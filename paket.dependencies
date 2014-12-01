@@ -1,0 +1,12 @@
+source https://nuget.org/api/v2
+
+nuget NUnit 
+nuget NUnit.Runners
+nuget Nuget.CommandLine
+nuget FAKE
+nuget FSharpx.Collections
+nuget FSharpx.Core
+nuget EventStore.Client
+nuget Newtonsoft.Json
+nuget FsUnit
+nuget FsCheck

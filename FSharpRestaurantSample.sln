@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpRestaurantSample", "src\FSharpRestaurantSample\FSharpRestaurantSample.fsproj", "{D3556B57-79AA-438D-9C89-9A69486CB3E5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpRestaurantSample.Tests", "tests\FSharpRestaurantSample.Tests\FSharpRestaurantSample.Tests.fsproj", "{95766C77-98B3-4671-89FA-8CBF92E8AD04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3556B57-79AA-438D-9C89-9A69486CB3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3556B57-79AA-438D-9C89-9A69486CB3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3556B57-79AA-438D-9C89-9A69486CB3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3556B57-79AA-438D-9C89-9A69486CB3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95766C77-98B3-4671-89FA-8CBF92E8AD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95766C77-98B3-4671-89FA-8CBF92E8AD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95766C77-98B3-4671-89FA-8CBF92E8AD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95766C77-98B3-4671-89FA-8CBF92E8AD04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95766C77-98B3-4671-89FA-8CBF92E8AD04} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+	EndGlobalSection
+EndGlobal
